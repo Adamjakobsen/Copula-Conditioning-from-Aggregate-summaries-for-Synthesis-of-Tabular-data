@@ -1,0 +1,7 @@
+# Equal requested tier probabilities in disorders with observed tier-4 cases.
+# Separation anxiety and agoraphobia retain the natural summary marginals.
+depression: {tier_0: 0.2, tier_1: 0.2, tier_2: 0.2, tier_3: 0.2, tier_4: 0.2}
+specific_phobia: {tier_0: 0.2, tier_1: 0.2, tier_2: 0.2, tier_3: 0.2, tier_4: 0.2}
+social_anxiety: {tier_0: 0.2, tier_1: 0.2, tier_2: 0.2, tier_3: 0.2, tier_4: 0.2}
+panic: {tier_0: 0.2, tier_1: 0.2, tier_2: 0.2, tier_3: 0.2, tier_4: 0.2}
+generalized_anxiety: {tier_0: 0.2, tier_1: 0.2, tier_2: 0.2, tier_3: 0.2, tier_4: 0.2}

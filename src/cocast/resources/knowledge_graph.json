@@ -1,0 +1,256 @@
+{
+  "DEPRESSION": {
+    "full_name": "Major Depressive Disorder",
+    "clinical_definition": "The essential feature of a major depressive episode is a period of at least 2 weeks during which there is either depressed mood or the loss of interest or pleasure in nearly all activities (Criterion A).",
+    "dsm5_criteria": {
+      "A": "Five (or more) of the following symptoms have been present during the same 2-week period and represent a change from previous functioning; at least one of the symptoms is either (1) depressed mood or (2) loss of interest or pleasure. Note: Do not include symptoms that are clearly attributable to another medical condition. 1. Depressed mood most of the day, nearly every day, as indicated by either subjective report (e.g., feels sad, empty, hopeless) or observation made by others (e.g., appears tearful). (Note: In children and adolescents, can be irritable mood.) 2. Markedly diminished interest or pleasure in all, or almost all, activities most of the day, nearly every day (as indicated by either subjective account or observation). 3. Significant weight loss when not dieting or weight gain (e.g., a change of more than 5% of body weight in a month), or decrease or increase in appetite nearly every day. (Note: In children, consider failure to make expected weight gain.) 4. Insomnia or hypersomnia nearly every day. 5. Psychomotor agitation or retardation nearly every day (observable by others, not merely subjective feelings of restlessness or being slowed down). 6. Fatigue or loss of energy nearly every day. 7. Feelings of worthlessness or excessive or inappropriate guilt (which may be delusional) nearly every day (not merely self-reproach or guilt about being sick). 8. Diminished ability to think or concentrate, or indecisiveness, nearly every day (either by subjective account or as observed by others). 9. Recurrent thoughts of death (not just fear of dying), recurrent suicidal ideation without a specific plan, or a suicide attempt or a specific plan for committing suicide.",
+      "B": "The symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+      "C": "The episode is not attributable to the physiological effects of a substance or to another medical condition. Note: Criteria A-C represent a major depressive episode. Note: Responses to a significant loss (e.g., bereavement, financial ruin, losses from a natural disaster, a serious medical illness or disability) may include the feelings of intense sadness, rumination about the loss, insomnia, poor appetite, and weight loss noted in Criterion A, which may resemble a depressive episode. Although such symptoms may be understandable or considered appropriate to the loss, the presence of a major depressive episode in addition to the normal response to a significant loss should also be carefully considered. This decision inevitably requires the exercise of clinical judgment based on the individual’s history and the cultural norms for the expression of distress in the context of loss. [1]",
+      "D": "The occurrence of the major depressive episode is not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified and unspecified schizophrenia spectrum and other psychotic disorders.",
+      "E": "There has never been a manic episode or a hypomanic episode. Note: This exclusion does not apply if all of the manic-like or hypomanic-like episodes are substance-induced or are attributable to the physiological effects of another medical condition."
+    },
+    "criteria_notes": [
+      {
+        "label": "Footnote 1",
+        "text": "In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to weeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of MDE is more persistent and not tied to specific thoughts or preoccupations. The pain of grief may be accompanied by positive emotions and humor that are uncharacteristic of the pervasive unhappiness and misery characteristic of MDE. The thought content associated with grief generally features a preoccupation with thoughts and memories of the deceased, rather than the self-critical or pessimistic ruminations seen in MDE. In grief, self-esteem is generally preserved, whereas in MDE feelings of worthlessness and self-loathing are common. If self-derogatory ideation is present in grief, it typically involves perceived failings vis-à-vis the deceased (e.g., not visiting frequently enough, not telling the deceased how much he or she was loved). If a bereaved individual thinks about death and dying, such thoughts are generally focused on the deceased and possibly about \"joining\" the deceased, whereas in MDE such thoughts are focused on ending one's own life because of feeling worthless, undeserving of life, or unable to cope with the pain of depression."
+      }
+    ],
+    "source": {
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "author": "American Psychiatric Association",
+      "edition": "Fifth Edition (DSM-5)",
+      "year": 2013,
+      "file": "documents/DSM-5.pdf",
+      "criteria_printed_pages": [
+        160,
+        161
+      ],
+      "criteria_pdf_pages": [
+        198,
+        199
+      ],
+      "description_printed_pages": [
+        163
+      ],
+      "description_pdf_pages": [
+        201
+      ]
+    }
+  },
+  "SEPARATION ANXIETY": {
+    "full_name": "Separation Anxiety Disorder",
+    "clinical_definition": "The essential feature of separation anxiety disorder is excessive fear or anxiety concerning separation from home or attachment figures.",
+    "dsm5_criteria": {
+      "A": "Developmentally inappropriate and excessive fear or anxiety concerning separation from those to whom the individual is attached, as evidenced by at least three of the following: 1. Recurrent excessive distress when anticipating or experiencing separation from home or from major attachment figures. 2. Persistent and excessive worry about losing major attachment figures or about possible harm to them, such as illness, injury, disasters, or death. 3. Persistent and excessive worry about experiencing an untoward event (e.g., getting lost, being kidnapped, having an accident, becoming ill) that causes separation from a major attachment figure. 4. Persistent reluctance or refusal to go out, away from home, to school, to work, or elsewhere because of fear of separation. 5. Persistent and excessive fear of or reluctance about being alone or without major attachment figures at home or in other settings. 6. Persistent reluctance or refusal to sleep away from home or to go to sleep without being near a major attachment figure. 7. Repeated nightmares involving the theme of separation. 8. Repeated complaints of physical symptoms (e.g., headaches, stomachaches, nausea, vomiting) when separation from major attachment figures occurs or is anticipated.",
+      "B": "The fear, anxiety, or avoidance is persistent, lasting at least 4 weeks in children and adolescents and typically 6 months or more in adults.",
+      "C": "The disturbance causes clinically significant distress or impairment in social, academic, occupational, or other important areas of functioning.",
+      "D": "The disturbance is not better explained by another mental disorder, such as refusing to leave home because of excessive resistance to change in autism spectrum disorder; delusions or hallucinations concerning separation in psychotic disorders; refusal to go outside without a trusted companion in agoraphobia; worries about ill health or other harm befalling significant others in generalized anxiety disorder; or concerns about having an illness in illness anxiety disorder."
+    },
+    "criteria_notes": [],
+    "source": {
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "author": "American Psychiatric Association",
+      "edition": "Fifth Edition (DSM-5)",
+      "year": 2013,
+      "file": "documents/DSM-5.pdf",
+      "criteria_printed_pages": [
+        190,
+        191
+      ],
+      "criteria_pdf_pages": [
+        228,
+        229
+      ],
+      "description_printed_pages": [
+        191
+      ],
+      "description_pdf_pages": [
+        229
+      ]
+    }
+  },
+  "SPECIFIC PHOBIA": {
+    "full_name": "Specific Phobia",
+    "clinical_definition": "A key feature of this disorder is that the fear or anxiety is circumscribed to the presence of a particular situation or object (Criterion A), which may be termed the phobic stimulus.",
+    "dsm5_criteria": {
+      "A": "Marked fear or anxiety about a specific object or situation (e.g., flying, heights, animals, receiving an injection, seeing blood). Note: In children, the fear or anxiety may be expressed by crying, tantrums, freezing, or clinging.",
+      "B": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+      "C": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+      "D": "The fear or anxiety is out of proportion to the actual danger posed by the specific object or situation and to the sociocultural context.",
+      "E": "The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more.",
+      "F": "The fear, anxiety, or avoidance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+      "G": "The disturbance is not better explained by the symptoms of another mental disorder, including fear, anxiety, and avoidance of situations associated with panic-like symptoms or other incapacitating symptoms (as in agoraphobia); objects or situations related to obsessions (as in obsessive-compulsive disorder); reminders of traumatic events (as in posttraumatic stress disorder); separation from home or attachment figures (as in separation anxiety disorder); or social situations (as in social anxiety disorder)."
+    },
+    "criteria_notes": [
+      {
+        "label": "Specify if",
+        "text": "Code based on the phobic stimulus: 300.29 (F40.218) Animal (e.g., spiders, insects, dogs). 300.29 (F40.228) Natural environment (e.g., heights, storms, water). 300.29 (F40.23x) Blood-injection-injury (e.g., needles, invasive medical procedures). Coding note: Select specific ICD-10-CM code as follows: F40.230 fear of blood; F40.231 fear of injections and transfusions; F40.232 fear of other medical care; or F40.233 fear of injury. 300.29 (F40.248) Situational (e.g., airplanes, elevators, enclosed places). 300.29 (F40.298) Other (e.g., situations that may lead to choking or vomiting; in children, e.g., loud sounds or costumed characters). Coding note: When more than one phobic stimulus is present, code all ICD-10-CM codes that apply (e.g., for fear of snakes and flying, F40.218 specific phobia, animal, and F40.248 specific phobia, situational)."
+      }
+    ],
+    "source": {
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "author": "American Psychiatric Association",
+      "edition": "Fifth Edition (DSM-5)",
+      "year": 2013,
+      "file": "documents/DSM-5.pdf",
+      "criteria_printed_pages": [
+        197,
+        198
+      ],
+      "criteria_pdf_pages": [
+        235,
+        236
+      ],
+      "description_printed_pages": [
+        198
+      ],
+      "description_pdf_pages": [
+        236
+      ]
+    }
+  },
+  "SOCIAL ANXIETY": {
+    "full_name": "Social Anxiety Disorder (Social Phobia)",
+    "clinical_definition": "The essential feature of social anxiety disorder is a marked, or intense, fear or anxiety of social situations in which the individual may be scrutinized by others.",
+    "dsm5_criteria": {
+      "A": "Marked fear or anxiety about one or more social situations in which the individual is exposed to possible scrutiny by others. Examples include social interactions (e.g., having a conversation, meeting unfamiliar people), being observed (e.g., eating or drinking), and performing in front of others (e.g., giving a speech). Note: In children, the anxiety must occur in peer settings and not just during interactions with adults.",
+      "B": "The individual fears that he or she will act in a way or show anxiety symptoms that will be negatively evaluated (i.e., will be humiliating or embarrassing; will lead to rejection or offend others).",
+      "C": "The social situations almost always provoke fear or anxiety. Note: In children, the fear or anxiety may be expressed by crying, tantrums, freezing, clinging, shrinking, or failing to speak in social situations.",
+      "D": "The social situations are avoided or endured with intense fear or anxiety.",
+      "E": "The fear or anxiety is out of proportion to the actual threat posed by the social situation and to the sociocultural context.",
+      "F": "The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more.",
+      "G": "The fear, anxiety, or avoidance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+      "H": "The fear, anxiety, or avoidance is not attributable to the physiological effects of a substance (e.g., a drug of abuse, a medication) or another medical condition.",
+      "I": "The fear, anxiety, or avoidance is not better explained by the symptoms of another mental disorder, such as panic disorder, body dysmorphic disorder, or autism spectrum disorder.",
+      "J": "If another medical condition (e.g., Parkinson’s disease, obesity, disfigurement from burns or injury) is present, the fear, anxiety, or avoidance is clearly unrelated or is excessive."
+    },
+    "criteria_notes": [
+      {
+        "label": "Specify if",
+        "text": "Performance only: If the fear is restricted to speaking or performing in public."
+      }
+    ],
+    "source": {
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "author": "American Psychiatric Association",
+      "edition": "Fifth Edition (DSM-5)",
+      "year": 2013,
+      "file": "documents/DSM-5.pdf",
+      "criteria_printed_pages": [
+        202,
+        203
+      ],
+      "criteria_pdf_pages": [
+        240,
+        241
+      ],
+      "description_printed_pages": [
+        203
+      ],
+      "description_pdf_pages": [
+        241
+      ]
+    }
+  },
+  "PANIC": {
+    "full_name": "Panic Disorder",
+    "clinical_definition": "Panic disorder refers to recurrent unexpected panic attacks (Criterion A).",
+    "dsm5_criteria": {
+      "A": "Recurrent unexpected panic attacks. A panic attack is an abrupt surge of intense fear or intense discomfort that reaches a peak within minutes, and during which time four (or more) of the following symptoms occur: Note: The abrupt surge can occur from a calm state or an anxious state. 1. Palpitations, pounding heart, or accelerated heart rate. 2. Sweating. 3. Trembling or shaking. 4. Sensations of shortness of breath or smothering. 5. Feelings of choking. 6. Chest pain or discomfort. 7. Nausea or abdominal distress. 8. Feeling dizzy, unsteady, light-headed, or faint. 9. Chills or heat sensations. 10. Paresthesias (numbness or tingling sensations). 11. Derealization (feelings of unreality) or depersonalization (being detached from oneself). 12. Fear of losing control or “ going crazy.” 13. Fear of dying. Note: Culture-specific symptoms (e.g., tinnitus, neck soreness, headache, uncontrollable screaming or crying) may be seen. Such symptoms should not count as one of the four required symptoms.",
+      "B": "At least one of the attacks has been followed by 1 month (or more) of one or both of the following: 1. Persistent concern or worry about additional panic attacks or their consequences (e.g., losing control, having a heart attack, “ going crazy”). 2. A significant maladaptive change in behavior related to the attacks (e.g., behaviors designed to avoid having panic attacks, such as avoidance of exercise or unfamiliar situations).",
+      "C": "The disturbance is not attributable to the physiological effects of a substance (e.g., a drug of abuse, a medication) or another medical condition (e.g., hyperthyroidism, cardiopulmonary disorders).",
+      "D": "The disturbance is not better explained by another mental disorder (e.g., the panic attacks do not occur only in response to feared social situations, as in social anxiety disorder; in response to circumscribed phobic objects or situations, as in specific phobia; in response to obsessions, as in obsessive-compulsive disorder; in response to reminders of traumatic events, as in posttraumatic stress disorder; or in response to separation from attachment figures, as in separation anxiety disorder)."
+    },
+    "criteria_notes": [],
+    "source": {
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "author": "American Psychiatric Association",
+      "edition": "Fifth Edition (DSM-5)",
+      "year": 2013,
+      "file": "documents/DSM-5.pdf",
+      "criteria_printed_pages": [
+        208,
+        209
+      ],
+      "criteria_pdf_pages": [
+        246,
+        247
+      ],
+      "description_printed_pages": [
+        209
+      ],
+      "description_pdf_pages": [
+        247
+      ]
+    }
+  },
+  "AGORAPHOBIA": {
+    "full_name": "Agoraphobia",
+    "clinical_definition": "The essential feature of agoraphobia is marked, or intense, fear or anxiety triggered by the real or anticipated exposure to a wide range of situations (Criterion A).",
+    "dsm5_criteria": {
+      "A": "Marked fear or anxiety about two (or more) of the following five situations: 1. Using public transportation (e.g., automobiles, buses, trains, ships, planes). 2. Being in open spaces (e.g., parking lots, marketplaces, bridges). 3. Being in enclosed places (e.g., shops, theaters, cinemas). 4. Standing in line or being in a crowd. 5. Being outside of the home alone.",
+      "B": "The individual fears or avoids these situations because of thoughts that escape might be difficult or help might not be available in the event of developing panic-like symptoms or other incapacitating or embarrassing symptoms (e.g., fear of falling in the elderly; fear of incontinence).",
+      "C": "The agoraphobic situations almost always provoke fear or anxiety.",
+      "D": "The agoraphobic situations are actively avoided, require the presence of a companion, or are endured with intense fear or anxiety.",
+      "E": "The fear or anxiety is out of proportion to the actual danger posed by the agoraphobic situations and to the sociocultural context.",
+      "F": "The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more.",
+      "G": "The fear, anxiety, or avoidance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+      "H": "If another medical condition (e.g., inflammatory bowel disease, Parkinson’s disease) is present, the fear, anxiety, or avoidance is clearly excessive.",
+      "I": "The fear, anxiety, or avoidance is not better explained by the symptoms of another mental disorder—for example, the symptoms are not confined to specific phobia, situational type; do not involve only social situations (as in social anxiety disorder); and are not related exclusively to obsessions (as in obsessive-compulsive disorder), perceived defects or flaws in physical appearance (as in body dysmorphic disorder), reminders of traumatic events (as in posttraumatic stress disorder), or fear of separation (as in separation anxiety disorder). Note: Agoraphobia is diagnosed irrespective of the presence of panic disorder. If an individual’s presentation meets criteria for panic disorder and agoraphobia, both diagnoses should be assigned."
+    },
+    "criteria_notes": [],
+    "source": {
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "author": "American Psychiatric Association",
+      "edition": "Fifth Edition (DSM-5)",
+      "year": 2013,
+      "file": "documents/DSM-5.pdf",
+      "criteria_printed_pages": [
+        217,
+        218
+      ],
+      "criteria_pdf_pages": [
+        255,
+        256
+      ],
+      "description_printed_pages": [
+        218
+      ],
+      "description_pdf_pages": [
+        256
+      ]
+    }
+  },
+  "GENERALIZED ANXIETY": {
+    "full_name": "Generalized Anxiety Disorder",
+    "clinical_definition": "The essential feature of generalized anxiety disorder is excessive anxiety and worry (apprehensive expectation) about a number of events or activities.",
+    "dsm5_criteria": {
+      "A": "Excessive anxiety and worry (apprehensive expectation), occurring more days than not for at least 6 months, about a number of events or activities (such as work or school performance).",
+      "B": "The individual finds it difficult to control the worry.",
+      "C": "The anxiety and worry are associated with three (or more) of the following six symptoms (with at least some symptoms having been present for more days than not for the past 6 months): Note: Only one item is required in children. 1. Restlessness or feeling keyed up or on edge. 2. Being easily fatigued. 3. Difficulty concentrating or mind going blank. 4. Irritability. 5. Muscle tension. 6. Sleep disturbance (difficulty falling or staying asleep, or restless, unsatisfying sleep).",
+      "D": "The anxiety, worry, or physical symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+      "E": "The disturbance is not attributable to the physiological effects of a substance (e.g., a drug of abuse, a medication) or another medical condition (e.g., hyperthyroidism).",
+      "F": "The disturbance is not better explained by another mental disorder (e.g., anxiety or worry about having panic attacks in panic disorder, negative evaluation in social anxiety disorder [social phobia], contamination or other obsessions in obsessive-compulsive disorder, separation from attachment figures in separation anxiety disorder, reminders of traumatic events in posttraumatic stress disorder, gaining weight in anorexia nervosa, physical complaints in somatic symptom disorder, perceived appearance flaws in body dysmorphic disorder, having a serious illness in illness anxiety disorder, or the content of delusional beliefs in schizophrenia or delusional disorder)."
+    },
+    "criteria_notes": [],
+    "source": {
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "author": "American Psychiatric Association",
+      "edition": "Fifth Edition (DSM-5)",
+      "year": 2013,
+      "file": "documents/DSM-5.pdf",
+      "criteria_printed_pages": [
+        222
+      ],
+      "criteria_pdf_pages": [
+        260
+      ],
+      "description_printed_pages": [
+        222
+      ],
+      "description_pdf_pages": [
+        260
+      ]
+    }
+  }
+}

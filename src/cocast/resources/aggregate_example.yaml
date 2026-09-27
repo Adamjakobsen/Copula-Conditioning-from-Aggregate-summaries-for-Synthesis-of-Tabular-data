@@ -1,0 +1,123 @@
+description: Cohort-computed aggregate inputs for questionnaire profile generation.
+source: Computed from the supplied baseline cohort, not a published correlation table.
+correlation_source: Computed from supplied cohort records using average-rank probit
+  scores.
+n: 564
+n_complete_scores: 564
+n_observed_age: 562
+n_missing_age: 2
+disorders:
+- depression
+- separation_anxiety
+- specific_phobia
+- social_anxiety
+- panic
+- agoraphobia
+- generalized_anxiety
+correlation_probit_2dp:
+- - 1.0
+  - 0.47
+  - 0.41
+  - 0.5
+  - 0.44
+  - 0.4
+  - 0.54
+- - 0.47
+  - 1.0
+  - 0.43
+  - 0.47
+  - 0.49
+  - 0.53
+  - 0.49
+- - 0.41
+  - 0.43
+  - 1.0
+  - 0.48
+  - 0.49
+  - 0.41
+  - 0.49
+- - 0.5
+  - 0.47
+  - 0.48
+  - 1.0
+  - 0.48
+  - 0.5
+  - 0.57
+- - 0.44
+  - 0.49
+  - 0.49
+  - 0.48
+  - 1.0
+  - 0.54
+  - 0.53
+- - 0.4
+  - 0.53
+  - 0.41
+  - 0.5
+  - 0.54
+  - 1.0
+  - 0.49
+- - 0.54
+  - 0.49
+  - 0.49
+  - 0.57
+  - 0.53
+  - 0.49
+  - 1.0
+tier_prevalences:
+  depression:
+    tier_0: 0.294
+    tier_1: 0.488
+    tier_2: 0.156
+    tier_3: 0.05
+    tier_4: 0.012
+  separation_anxiety:
+    tier_0: 0.679
+    tier_1: 0.266
+    tier_2: 0.043
+    tier_3: 0.012
+    tier_4: 0.0
+  specific_phobia:
+    tier_0: 0.365
+    tier_1: 0.465
+    tier_2: 0.131
+    tier_3: 0.032
+    tier_4: 0.007
+  social_anxiety:
+    tier_0: 0.468
+    tier_1: 0.427
+    tier_2: 0.076
+    tier_3: 0.025
+    tier_4: 0.004
+  panic:
+    tier_0: 0.729
+    tier_1: 0.211
+    tier_2: 0.048
+    tier_3: 0.009
+    tier_4: 0.004
+  agoraphobia:
+    tier_0: 0.661
+    tier_1: 0.278
+    tier_2: 0.053
+    tier_3: 0.007
+    tier_4: 0.0
+  generalized_anxiety:
+    tier_0: 0.387
+    tier_1: 0.504
+    tier_2: 0.087
+    tier_3: 0.021
+    tier_4: 0.002
+sex_ratio:
+  male: 0.317
+  female: 0.683
+age_histogram:
+  18-18: 0.123
+  19-19: 0.221
+  20-20: 0.169
+  21-22: 0.246
+  23-51: 0.242
+age_missing_rate: 0.0035460992907801418
+rounding:
+  correlation_decimals: 2
+  marginal_decimals: 3
+source_sha256: 206e9abd58110a7ccc22f41fe122e500fbd4a7f0a1b807553d6396daaaa1757f

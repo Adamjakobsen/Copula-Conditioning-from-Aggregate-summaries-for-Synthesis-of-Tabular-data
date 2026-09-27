@@ -1,0 +1,10 @@
+include README.md requirements.txt LICENSE THIRD_PARTY_NOTICES.md
+recursive-include configs *.yaml
+recursive-include tests *.py
+recursive-include dataset *.csv *.md *.txt
+prune work*
+prune private
+prune data
+prune models
+prune .venv*
+global-exclude __pycache__ *.py[cod] .DS_Store *.log

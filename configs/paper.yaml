@@ -1,0 +1,64 @@
+aggregates: '@aggregate_example'
+target_prevalences: target_uniform5.yaml
+models:
+  4b: 4b.yaml
+  9b: 9b.yaml
+  27b: 27b.yaml
+seeds:
+- 42
+- 43
+- 44
+n: 564
+expanded_n: 2260
+conditions:
+  natural:
+    models:
+    - 4b
+    - 9b
+    - 27b
+    context: own
+    regime: natural
+  full:
+    models:
+    - 4b
+    - 9b
+    - 27b
+    context: full
+    regime: natural
+  balanced:
+    models:
+    - 4b
+    - 9b
+    - 27b
+    context: own
+    regime: targeted
+  independent:
+    models:
+    - 27b
+    context: own
+    regime: natural
+  expanded_natural:
+    models:
+    - 27b
+    context: own
+    regime: natural
+  expanded_balanced:
+    models:
+    - 27b
+    context: own
+    regime: targeted
+baselines:
+  methods:
+  - ctgan
+  - tvae
+  epochs: 500
+  device: cuda
+evaluation:
+  folds: 5
+  repeats: 3
+  seed: 42
+  ratios:
+  - 0.5
+  - 1
+  - 2
+  - 5

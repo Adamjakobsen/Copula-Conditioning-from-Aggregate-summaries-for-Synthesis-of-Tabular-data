@@ -1,0 +1,73 @@
+column,domain,type,allowed_values,missing,description
+ID,identifier,string,syn_aggregate_<counter>,Absent from CTGAN/TVAE files,"Synthetic row identifier, local to its file. Not a real participant identifier. Exclude from predictors."
+W1_age_r,demographics,numeric,Age in years,Empty CSV cell,Generated age. Missingness is retained. W1 denotes the first assessment wave schema.
+W1_sex_r,demographics,integer,"1=male, 2=female",None,Generated recorded-sex category using the source schema.
+W1_depression_it1,depression,integer,0..3,None,Synthetic response to item 1 of the depression questionnaire.
+W1_depression_it2,depression,integer,0..3,None,Synthetic response to item 2 of the depression questionnaire.
+W1_depression_it3,depression,integer,0..3,None,Synthetic response to item 3 of the depression questionnaire.
+W1_depression_it4,depression,integer,0..3,None,Synthetic response to item 4 of the depression questionnaire.
+W1_depression_it5,depression,integer,0..3,None,Synthetic response to item 5 of the depression questionnaire.
+W1_depression_it6,depression,integer,0..3,None,Synthetic response to item 6 of the depression questionnaire.
+W1_depression_it7,depression,integer,0..3,None,Synthetic response to item 7 of the depression questionnaire.
+W1_depression_it8,depression,integer,0..3,None,Synthetic response to item 8 of the depression questionnaire.
+W1_depression_it9,depression,integer,0..3,None,Synthetic response to item 9 of the depression questionnaire.
+W1_separation_anxiety_it1,separation_anxiety,integer,0..4,None,Synthetic response to item 1 of the separation anxiety questionnaire.
+W1_separation_anxiety_it2,separation_anxiety,integer,0..4,None,Synthetic response to item 2 of the separation anxiety questionnaire.
+W1_separation_anxiety_it3,separation_anxiety,integer,0..4,None,Synthetic response to item 3 of the separation anxiety questionnaire.
+W1_separation_anxiety_it4,separation_anxiety,integer,0..4,None,Synthetic response to item 4 of the separation anxiety questionnaire.
+W1_separation_anxiety_it5,separation_anxiety,integer,0..4,None,Synthetic response to item 5 of the separation anxiety questionnaire.
+W1_separation_anxiety_it6,separation_anxiety,integer,0..4,None,Synthetic response to item 6 of the separation anxiety questionnaire.
+W1_separation_anxiety_it7,separation_anxiety,integer,0..4,None,Synthetic response to item 7 of the separation anxiety questionnaire.
+W1_separation_anxiety_it8,separation_anxiety,integer,0..4,None,Synthetic response to item 8 of the separation anxiety questionnaire.
+W1_separation_anxiety_it9,separation_anxiety,integer,0..4,None,Synthetic response to item 9 of the separation anxiety questionnaire.
+W1_separation_anxiety_it10,separation_anxiety,integer,0..4,None,Synthetic response to item 10 of the separation anxiety questionnaire.
+W1_specific_phobia_it1,specific_phobia,integer,0..4,None,Synthetic response to item 1 of the specific phobia questionnaire.
+W1_specific_phobia_it2,specific_phobia,integer,0..4,None,Synthetic response to item 2 of the specific phobia questionnaire.
+W1_specific_phobia_it3,specific_phobia,integer,0..4,None,Synthetic response to item 3 of the specific phobia questionnaire.
+W1_specific_phobia_it4,specific_phobia,integer,0..4,None,Synthetic response to item 4 of the specific phobia questionnaire.
+W1_specific_phobia_it5,specific_phobia,integer,0..4,None,Synthetic response to item 5 of the specific phobia questionnaire.
+W1_specific_phobia_it6,specific_phobia,integer,0..4,None,Synthetic response to item 6 of the specific phobia questionnaire.
+W1_specific_phobia_it7,specific_phobia,integer,0..4,None,Synthetic response to item 7 of the specific phobia questionnaire.
+W1_specific_phobia_it8,specific_phobia,integer,0..4,None,Synthetic response to item 8 of the specific phobia questionnaire.
+W1_specific_phobia_it9,specific_phobia,integer,0..4,None,Synthetic response to item 9 of the specific phobia questionnaire.
+W1_specific_phobia_it10,specific_phobia,integer,0..4,None,Synthetic response to item 10 of the specific phobia questionnaire.
+W1_social_anxiety_it1,social_anxiety,integer,0..4,None,Synthetic response to item 1 of the social anxiety questionnaire.
+W1_social_anxiety_it2,social_anxiety,integer,0..4,None,Synthetic response to item 2 of the social anxiety questionnaire.
+W1_social_anxiety_it3,social_anxiety,integer,0..4,None,Synthetic response to item 3 of the social anxiety questionnaire.
+W1_social_anxiety_it4,social_anxiety,integer,0..4,None,Synthetic response to item 4 of the social anxiety questionnaire.
+W1_social_anxiety_it5,social_anxiety,integer,0..4,None,Synthetic response to item 5 of the social anxiety questionnaire.
+W1_social_anxiety_it6,social_anxiety,integer,0..4,None,Synthetic response to item 6 of the social anxiety questionnaire.
+W1_social_anxiety_it7,social_anxiety,integer,0..4,None,Synthetic response to item 7 of the social anxiety questionnaire.
+W1_social_anxiety_it8,social_anxiety,integer,0..4,None,Synthetic response to item 8 of the social anxiety questionnaire.
+W1_social_anxiety_it9,social_anxiety,integer,0..4,None,Synthetic response to item 9 of the social anxiety questionnaire.
+W1_social_anxiety_it10,social_anxiety,integer,0..4,None,Synthetic response to item 10 of the social anxiety questionnaire.
+W1_panic_it1,panic,integer,0..4,None,Synthetic response to item 1 of the panic questionnaire.
+W1_panic_it2,panic,integer,0..4,None,Synthetic response to item 2 of the panic questionnaire.
+W1_panic_it3,panic,integer,0..4,None,Synthetic response to item 3 of the panic questionnaire.
+W1_panic_it4,panic,integer,0..4,None,Synthetic response to item 4 of the panic questionnaire.
+W1_panic_it5,panic,integer,0..4,None,Synthetic response to item 5 of the panic questionnaire.
+W1_panic_it6,panic,integer,0..4,None,Synthetic response to item 6 of the panic questionnaire.
+W1_panic_it7,panic,integer,0..4,None,Synthetic response to item 7 of the panic questionnaire.
+W1_panic_it8,panic,integer,0..4,None,Synthetic response to item 8 of the panic questionnaire.
+W1_panic_it9,panic,integer,0..4,None,Synthetic response to item 9 of the panic questionnaire.
+W1_panic_it10,panic,integer,0..4,None,Synthetic response to item 10 of the panic questionnaire.
+W1_agoraphobia_it1,agoraphobia,integer,0..4,None,Synthetic response to item 1 of the agoraphobia questionnaire.
+W1_agoraphobia_it2,agoraphobia,integer,0..4,None,Synthetic response to item 2 of the agoraphobia questionnaire.
+W1_agoraphobia_it3,agoraphobia,integer,0..4,None,Synthetic response to item 3 of the agoraphobia questionnaire.
+W1_agoraphobia_it4,agoraphobia,integer,0..4,None,Synthetic response to item 4 of the agoraphobia questionnaire.
+W1_agoraphobia_it5,agoraphobia,integer,0..4,None,Synthetic response to item 5 of the agoraphobia questionnaire.
+W1_agoraphobia_it6,agoraphobia,integer,0..4,None,Synthetic response to item 6 of the agoraphobia questionnaire.
+W1_agoraphobia_it7,agoraphobia,integer,0..4,None,Synthetic response to item 7 of the agoraphobia questionnaire.
+W1_agoraphobia_it8,agoraphobia,integer,0..4,None,Synthetic response to item 8 of the agoraphobia questionnaire.
+W1_agoraphobia_it9,agoraphobia,integer,0..4,None,Synthetic response to item 9 of the agoraphobia questionnaire.
+W1_agoraphobia_it10,agoraphobia,integer,0..4,None,Synthetic response to item 10 of the agoraphobia questionnaire.
+W1_generalized_anxiety_it1,generalized_anxiety,integer,0..4,None,Synthetic response to item 1 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it2,generalized_anxiety,integer,0..4,None,Synthetic response to item 2 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it3,generalized_anxiety,integer,0..4,None,Synthetic response to item 3 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it4,generalized_anxiety,integer,0..4,None,Synthetic response to item 4 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it5,generalized_anxiety,integer,0..4,None,Synthetic response to item 5 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it6,generalized_anxiety,integer,0..4,None,Synthetic response to item 6 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it7,generalized_anxiety,integer,0..4,None,Synthetic response to item 7 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it8,generalized_anxiety,integer,0..4,None,Synthetic response to item 8 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it9,generalized_anxiety,integer,0..4,None,Synthetic response to item 9 of the generalized anxiety questionnaire.
+W1_generalized_anxiety_it10,generalized_anxiety,integer,0..4,None,Synthetic response to item 10 of the generalized anxiety questionnaire.

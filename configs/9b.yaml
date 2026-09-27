@@ -1,0 +1,17 @@
+backend: vllm
+model: Qwen/Qwen3.5-9B
+model_revision: c202236235762e1c871ad0ccb60c8ee5ba337b9a
+precision: bf16
+base_url: http://127.0.0.1:8000/v1
+temperature: 1.0
+top_p: 1.0
+top_k: -1
+min_p: 0.0
+max_tokens: 2048
+context_window: 8192
+workers: 4
+seed: 42
+max_retries: 2
+response_format_json: true
+chat_template_kwargs:
+  enable_thinking: false
