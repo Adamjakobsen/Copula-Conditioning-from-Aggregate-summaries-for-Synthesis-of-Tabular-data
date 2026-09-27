@@ -14,7 +14,7 @@ schema, scoring and prompt resources.
 
 ## Installation
 
-Use Python 3.12 or 3.13 in an isolated environment. From the repository root:
+From the repository root:
 
 ```bash
 python3 -m venv .venv
@@ -45,8 +45,7 @@ python -m pip install -e .
 python -c "import torch, vllm; print(vllm.__version__); print(torch.cuda.get_device_name())"
 ```
 
-The paper's original BF16 27B runs used an A100 80 GB. The copula-ablation
-runs used an H200 NVL with the same checkpoint and generation settings. The
+The paper's original BF16 27B runs used an A100 80 GB. The
 smaller models need less memory. Managed generation downloads pinned
 checkpoints to the Hugging Face cache, starts a localhost server and stops only
 that server when its queue ends. 
@@ -122,10 +121,6 @@ cocast study evaluate --config configs/paper.yaml --out work/paper \
   --real private/real_baseline.csv
 ```
 
-Run generation in the CUDA environment, baselines in the SDV environment, and
-evaluation in the pinned numerical environment. All stages use the same output
-root. Baseline and study evaluation commands verify that the supplied real
-cohort reproduces the configured summaries. 
 
 To run one seed or model, use selectors consistently across stages:
 
@@ -136,10 +131,6 @@ cocast study generate --out work/ablation --models 27b --seeds 42 43 44 \
   --conditions independent --port 8019
 ```
 
-For all three ablation sizes, pass `--models 4b 9b 27b`. Independent terminals
-must use different output roots. Use different ports if they share a node, and
-ensure each server has its own allocated GPU. The runner does not change
-`CUDA_VISIBLE_DEVICES`. 
 
 Rerunning the generation command validates completed runs and skips them.
 Interrupted runs resume from their journals without regenerating accepted
