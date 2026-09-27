@@ -60,11 +60,7 @@ probability.
 
 Participant records are needed only to extract summaries, train CTGAN/TVAE, or
 evaluate against the real cohort. Obtain the study data from the
-[source study's OSF repository](https://osf.io/jz4ge/) subject to its access terms.
-The project's public metadata did not declare a licence when checked on
-27 September 2026. The real reference data are not redistributed here and
-are not covered by the CoCAST licences. See
-[reference-data provenance](dataset/REFERENCE_DATA.md).
+[source study's OSF repository](https://osf.io/jz4ge/).
 Place the source file outside the package, for example in `private/`:
 
 ```bash
@@ -129,10 +125,7 @@ cocast study evaluate --config configs/paper.yaml --out work/paper \
 Run generation in the CUDA environment, baselines in the SDV environment, and
 evaluation in the pinned numerical environment. All stages use the same output
 root. Baseline and study evaluation commands verify that the supplied real
-cohort reproduces the configured summaries. Generation never trains the baselines or runs evaluation. The generation
-runner keeps each model loaded across its selected conditions and seeds.
-Expanded conditions first generate or validate their matched-size parent run,
-then reuse its completed 564-record prefix.
+cohort reproduces the configured summaries. 
 
 To run one seed or model, use selectors consistently across stages:
 
@@ -146,14 +139,11 @@ cocast study generate --out work/ablation --models 27b --seeds 42 43 44 \
 For all three ablation sizes, pass `--models 4b 9b 27b`. Independent terminals
 must use different output roots. Use different ports if they share a node, and
 ensure each server has its own allocated GPU. The runner does not change
-`CUDA_VISIBLE_DEVICES`. Use `--tensor-parallel-size 2` only when both GPUs are
-visible within the same allocation. `--existing-server` skips server management
-and requires one selected model, the matching port, and the configured checkpoint
-and generation settings on that server.
+`CUDA_VISIBLE_DEVICES`. 
 
 Rerunning the generation command validates completed runs and skips them.
 Interrupted runs resume from their journals without regenerating accepted
-responses. Changing inputs or scientific settings requires a different output
+responses. Changing inputs or settings requires a different output
 root. Invalid responses are retried up to the configured limit. An incomplete
 run fails explicitly and is not eligible for evaluation. After inspecting the
 invalid answers, `study generate --extra-attempts 2` permits two additional
@@ -260,16 +250,3 @@ patterns. The generation and evaluation commands above reproduce the complete
 pipeline from the supplied aggregate inputs and an independently obtained real
 reference table. Regeneration may vary across hardware or inference libraries.
 
-## Licences and attribution
-
-The original CoCAST Python code is provided under the [MIT License](LICENSE).
-The 42 synthetic CSVs and CoCAST-authored dataset documentation in `dataset/`
-are provided under [CC BY 4.0](dataset/LICENSE.txt). Research and commercial
-reuse, modification and redistribution are permitted with attribution, a link
-to the licence and an indication of changes. See `dataset/README.md` for
-attribution details.
-
-These grants apply only to rights held by the CoCAST contributors. The real
-reference dataset and third-party DSM-5 descriptions, diagnostic criteria and
-questionnaire wording are not relicensed by CoCAST. Their separate rights and
-sources are described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
